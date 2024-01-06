@@ -12,7 +12,8 @@
     "utility",
     "JavaScript",
     "library",
-    "lightweight"
+    "lightweight",
+    "dependency-free"
   ],
   "description": "JavaScript library designed for efficiently filtering arrays while limiting the number of results. Ideal for handling large datasets.",
   "main": "dist/cjs/index.min.js",
