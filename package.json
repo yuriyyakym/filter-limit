@@ -26,6 +26,7 @@
   "scripts": {
     "build:cjs": "npx -p typescript tsc -p tsconfig.esm.json",
     "build:esm": "npx -p typescript tsc -p tsconfig.esm.json",
-    "build": "npm run build:cjs && npm run build:esm"
+    "build": "npm run build:cjs && npm run build:esm",
+    "test": "npx vitest"
   }
 }
