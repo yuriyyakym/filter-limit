@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "esnext",
-    "outDir": "dist/mjs",
+    "outDir": "dist/esm",
     "strict": true,
     "declaration": true
   },
