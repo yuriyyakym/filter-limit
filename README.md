@@ -1,5 +1,6 @@
 # filter-limit
 
+![Tests](https://github.com/yuriyyakym/filter-limit/actions/workflows/tests.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -25,6 +26,7 @@ import filterLimit from 'https://unpkg.com/filter-limit/dist/esm/index.min.js';
 - Performance-focused
 - Filters arrays based on custom criteria
 - Limit the number of results
+- Dependency-free
 - Works with CJS and ESM
 - Lightweight
   - ESM **226b** (**201b** gzipped)
