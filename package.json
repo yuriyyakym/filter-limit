@@ -14,7 +14,15 @@
     "library",
     "lightweight"
   ],
-  "description": "JavaScript library designed for efficiently filtering arrays while limiting the number of results. Ideal for handling large datasets."
+  "description": "JavaScript library designed for efficiently filtering arrays while limiting the number of results. Ideal for handling large datasets.",
+  "main": "build/cjs/index.js",
+  "types": "build/cjs/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./build/esm/index.js",
+      "require": "./build/cjs/index.js"
+    }
+  },
   "scripts": {
     "build:cjs": "npx -p typescript tsc -p tsconfig.esm.json",
     "build:esm": "npx -p typescript tsc -p tsconfig.esm.json",
