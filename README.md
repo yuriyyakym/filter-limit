@@ -15,8 +15,8 @@
 - 🕊️ Dependency-free
 - 🛠️ Works with CJS and ESM
 - 🪶 Lightweight
-  - ESM **226b** (**201b** gzipped)
-  - CJS **302b** (**254b** gzipped)
+  - ESM **226B** (**201B** gzipped)
+  - CJS **302B** (**254B** gzipped)
 
 ## Installation
 
