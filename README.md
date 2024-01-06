@@ -7,6 +7,17 @@
 
 `filter-limit` is a lightweight JavaScript library that provides a convenient method for filtering arrays while limiting the number of results. This is particularly useful for efficiently handling large datasets when you are interested in only a subset of elements.
 
+## Features
+
+- 🚀 Performance-focused
+- 🔎 Filters arrays based on custom criteria
+- 🚧 Limit the number of results
+- 🕊️ Dependency-free
+- 🛠️ Works with CJS and ESM
+- 🪶 Lightweight
+  - ESM **226b** (**201b** gzipped)
+  - CJS **302b** (**254b** gzipped)
+
 ## Installation
 
 You can install the library via npm:
@@ -20,17 +31,6 @@ Or import ESM module from CDN
 ```js
 import filterLimit from 'https://unpkg.com/filter-limit/dist/esm/index.min.js';
 ```
-
-## Features
-
-- Performance-focused
-- Filters arrays based on custom criteria
-- Limit the number of results
-- Dependency-free
-- Works with CJS and ESM
-- Lightweight
-  - ESM **226b** (**201b** gzipped)
-  - CJS **302b** (**254b** gzipped)
 
 ## Usage
 
