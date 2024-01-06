@@ -24,9 +24,11 @@
     }
   },
   "scripts": {
-    "build:cjs": "npx -p typescript tsc -p tsconfig.esm.json",
+    "build:cjs": "npx -p typescript tsc -p tsconfig.json",
     "build:esm": "npx -p typescript tsc -p tsconfig.esm.json",
-    "build": "npm run build:cjs && npm run build:esm",
+    "minify:cjs": "npx esbuild --minify --outfile=dist/cjs/index.min.js dist/cjs/index.js",
+    "minify:esm": "npx esbuild --minify --outfile=dist/esm/index.min.js dist/esm/index.js",
+    "build": "npm run build:cjs && npm run build:esm && npm run minify:cjs && npm run minify:esm",
     "test": "npx vitest"
   }
 }
