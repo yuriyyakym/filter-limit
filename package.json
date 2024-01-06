@@ -1,0 +1,18 @@
+{
+  "name": "filter-limit",
+  "version": "0.0.0",
+  "author": "Yuriy Yakym",
+  "license": "MIT",
+  "keywords": [
+    "filter",
+    "array",
+    "limit",
+    "search",
+    "dataset",
+    "utility",
+    "JavaScript",
+    "library",
+    "lightweight"
+  ],
+  "description": "JavaScript library designed for efficiently filtering arrays while limiting the number of results. Ideal for handling large datasets."
+}
